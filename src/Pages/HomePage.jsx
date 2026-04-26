@@ -20,9 +20,9 @@ function HomePage() {
 <Web_Project />
 <Recent__Work />
 
+{/* <RecruiterOne />
 <RecruiterOne />
-<RecruiterOne />
-<RecruiterOne />
+<RecruiterOne /> */}
 <ViewAll />
 <Tool />
 <FullStack /> 

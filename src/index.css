@@ -2,10 +2,23 @@
 
 
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 body{
   background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+/* global.css */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .lato-regular {
@@ -71,11 +84,13 @@ img.toolWeTrust {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  padding: 10px 10px
 }
 
 @media (max-width: 1023px) {
   .image_background {
     background-image: none !important;
+    background-color: #000000 !important;
   }
 }
 
