@@ -13,7 +13,7 @@ function Modern_Scalable() {
   
   return (
     <>
-    <section  className=" pt-15 md:pt-10 ">
+    <section  className=" pt-15 md:pt-5 ">
       <div className="container">
 <div className="relative h-[30%]  flex   justify-center text-center text-white overflow-hidden">
 
